@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    background-color: #eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #555;
+}
+
+.main {
+    padding: 20px;
+}
+
+.about, .features, .contact {
+    margin-bottom: 20px;
+}
+
+.about h2, .features h2, .contact h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about p, .features p, .contact p {
+    color: #555;
+    line-height: 1.5;
+}
+
+.features ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    color: #333;
+}
+
+.form-group input, .form-group textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.form-group button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #555;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
